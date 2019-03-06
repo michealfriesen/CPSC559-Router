@@ -7,6 +7,7 @@ A simple router, built using flask to route requests from our main Unity process
 Copy and paste this block of commands into terminal:
 ```
 git clone https://github.com/michealfriesen/CPSC559-Router.git
+cd CPSC559-Router
 python3 -m venv venv
 . venv/bin/activate
 pip install Flask
@@ -19,6 +20,7 @@ export FLASK_APP=main.py
 Copy and paste this block of commands into terminal:
 ```
 git clone https://github.com/michealfriesen/CPSC559-Router.git
+cd CPSC559-Router
 py -3 -m venv venv
 venv\Scripts\activate
 pip install Flask
