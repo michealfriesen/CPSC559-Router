@@ -11,7 +11,6 @@ cd CPSC559-Router
 python3 -m venv venv
 . venv/bin/activate
 pip install Flask
-export FLASK_APP=main.py
 ```
 
 ## Windows Installation Instructions
@@ -24,11 +23,24 @@ cd CPSC559-Router
 py -3 -m venv venv
 venv\Scripts\activate
 pip install Flask
-set FLASK_APP=main.py
 ```
 
 
 ## Usage Instructions:
-`flask run`
+If we arent in the virtual environment, run the following:
+
+### Linux
+```
+. venv/bin/activate
+set FLASK_APP=main.py
+flask run
+```
+
+### Windows
+```
+venv\Scripts\activate
+set FLASK_APP=main.py
+flask run
+```
 
 This should start the server at localhost:5000.
